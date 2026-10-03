@@ -1,16 +1,57 @@
-# React + Vite
+# DataGenie Milestone 5: M&S Operations Analytics
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A working analytics prototype built for the DataGenie Sales & Tech Associate Hackathon 2026. The prototype uses a synthetic Marks & Spencer operational dataset to demonstrate how DataGenie can move from dashboard based analysis to connected business insights.
 
-Currently, two official plugins are available:
+## What the App Does
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The app follows a simple workflow:
 
-## React Compiler
+**Company → Pain Points → Dashboard → Top Story → Executive Brief**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Company & Prospect Analysis:** Focuses on Marks & Spencer and identifies key operational pain points around product availability, excess inventory and uneven performance.
+- **Dashboard First:** Provides 4 KPIs and 4 line charts for Sales Revenue, Product Availability Rate, Inventory Level and Cost to Serve. Filters allow the user to investigate the data across business dimensions.
+- **Top Story:** Surfaces the key issue after the dashboard view and connects movements across multiple KPIs in one place.
+- **Executive Brief:** Converts the detailed analysis into a concise management level summary.
 
-## Expanding the Oxlint configuration
+## Why This Shows the "Hard Way"
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+The dashboard requires the user to manually inspect multiple KPI trends, apply filters and connect changes across different charts to understand what is happening.
+
+The Top Story then shows the contrast: instead of manually searching across several charts, related KPI movements are brought together into one structured explanation with traceable source data.
+
+## Potential Agentic AI Automation
+
+The workflow demonstrated in the prototype could be automated through an agentic AI system:
+
+1. Ingest operational data
+2. Validate and clean the data
+3. Calculate KPIs
+4. Monitor KPI trends
+5. Compare performance across dimensions
+6. Detect unusual changes
+7. Identify contributing dimensions
+8. Connect related KPI movements
+9. Generate Top Stories
+10. Generate Executive Briefs
+11. Provide traceable evidence
+12. Monitor continuously and generate alerts or reports
+
+## Assumptions
+
+- The dataset used is synthetic and created for this prototype; it is not M&S internal data.
+- The KPI definitions and data structure are a proposed operational model based on the Milestone 3 design.
+- The prototype demonstrates the analytical workflow rather than representing M&S's actual internal systems.
+- Relationships identified between KPIs are analytical signals and should not automatically be interpreted as confirmed causal relationships.
+- The prototype is intentionally focused on M&S rather than implementing a full multi-company production system.
+
+## Tech Stack
+
+- React
+- Vite
+- JavaScript
+- Recharts
+- XLSX data processing
+
+## Project Purpose
+
+The prototype demonstrates how a business user can move from manually exploring multiple operational metrics to receiving a connected, traceable business story from the same underlying data.
