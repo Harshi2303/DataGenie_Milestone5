@@ -1,6 +1,6 @@
 # DataGenie Milestone 5: M&S Operations Analytics
 
-A working analytics prototype built for the DataGenie Sales & Tech Associate Hackathon 2026. The prototype uses a synthetic Marks & Spencer operational dataset to demonstrate the journey from KPI analysis to connected business insights.
+A working analytics prototype built for the DataGenie Sales & Tech Associate Hackathon 2026. The prototype uses a synthetic Marks & Spencer operational dataset to demonstrate the journey from KPI analysis to connected business insights. Note: The application is under a different name because it’s a prototype demonstrating DataGenie’s workflow and capabilities and not the actual DataGenie application.
 
 ## Overview
 
