@@ -52,6 +52,7 @@ The workflow could be automated using agentic AI to:
 
 The prototype demonstrates how a business user can move from manually analysing multiple operational metrics to receiving a connected, traceable business story from the same underlying data.
 
-##Walk-through of the prototype
+## Walk-through of the prototype
+
 https://drive.google.com/file/d/1cNS14kgIqzpjXqSQx1RI1Kz-3QcbD9_a/view?usp=sharing
 
